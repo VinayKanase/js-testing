@@ -1,0 +1,17 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "test detail":"jest --coverage",
+    "watch": "jest --watch *.js"
+  },
+  "author": "Vinay S Kanase",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "jest": "^27.0.6"
+  }
+}
